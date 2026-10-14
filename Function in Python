@@ -1,0 +1,290 @@
+# funcion in python
+# A function is a reusable block of code that performs a specific task.
+# It runs when it is called.
+
+    #  10,15 20, 25, 30 40
+    #  def function_name(parameter):
+    #return
+  #Addition
+# def add(a,b):
+#      return a+b
+# print(add(10,40))
+# print(add(10,400))
+
+#Substraction
+# def sub(a,b):
+#      return a-b
+# print(sub(50,20))
+# print(sub(1000,400))
+
+# # Multiply
+# def mul(a,b):
+#      return a*b
+# print(mul(50,20))
+# print(mul(1000,400))
+
+#Divide
+# def div(i,j):
+#      return i/j
+# print(div(500,20))
+# print(div(1000,40))
+
+#def multiply(x):
+#      for i in range(1,11):
+#         print(x, "X", i, "=", x*i)
+
+# multiply(5)
+
+# multiply(3)
+# def add():
+#     a=10
+#     b=20
+#     print(a+b)
+#     add()
+
+#  def add(a,b):
+#         return a+b
+# def sub(a,b):
+#         return a-b
+# def mul(a,b):
+#         return a*b
+# def div(a,b):
+#         if b ==0:   
+#          return "Cannot divide by zero"
+#          return a/b
+
+# print(mul(12,10))
+
+# print(sub(100,50))
+
+# print(div(100,5))
+
+# marks=[33,54,66,89]
+# len(marks)
+# def calculate_total(marks):
+#      return sum(marks)
+# def calculate_avg(marks):
+#      return sum(marks)/len(marks)
+# def result(average):
+#     if average >=40:
+#           return "Pass"
+#     else:
+#         return "Fail"
+
+# Std_name=input("Enter student name: ")
+
+# marks=[]
+
+# for i in range (1,6):
+#     mark=int(input("Enter marks for subject "+ str(i) + ": "))
+#     marks.append(mark)
+
+# total=calculate_total(marks)
+# average=calculate_avg(marks)
+# result=result(average)
+
+# print("student name:",Std_name)
+# print("Total marks:",calculate_total(marks))
+# print("Average marks:",calculate_avg(marks))
+# print("Result:",result)
+
+# ClASSWORK PRACTISE 
+# clsswork practice
+
+# Greeting function
+# def greeting(name):
+#      print("Welcome", name)
+
+# greeting("Deepa")
+
+#Addition Function
+# def addition(a, b):
+#     return a + b
+
+# result = addition(10, 20)
+# print("Sum =", result)
+
+
+
+# #Even or odd
+# def even_odd(num):
+#     if num % 2 == 0:
+#         return "Even"
+#     else:
+#         return "Odd"
+
+# print(even_odd(2))
+# print(even_odd(5))
+
+
+   #Factorial Calculator
+# def factorial(n):
+#     fact = 1
+
+#     for i in range(1, n + 1):
+#         fact = fact * i
+
+#     return fact
+
+# print("Factorial =", factorial(5))
+
+# Largest of three number
+# def largest(a,b,c):
+#     return max(a,b,c,)
+# print("Largest=", largest(88,65,87))
+
+#Grade calculator
+# def grade(marks):
+#     if marks < 0 or marks > 100:
+#         return "Invalid Marks"
+#     elif marks >= 80:
+#         return "Excellent"
+#     elif marks >= 75:
+#         return "Very Good"
+#     elif marks >= 65:
+#         return "Good"
+#     elif marks >= 40:
+#         return "Pass"
+#     else:
+#         return "Fail"
+
+# print(grade(95))
+# print(grade(80))
+# print(grade(35))
+
+#List statistics
+# def total(numbers):
+#     return sum(numbers)
+
+# def average(numbers):
+#     return sum(numbers) / len(numbers)
+
+# def minimum(numbers):
+#     return min(numbers)
+
+# def maximum(numbers):
+#     return max(numbers)
+
+# numbers = [64, 56, 77, 89, 59]
+
+# print("Total =", total(numbers))
+# print("Average =", average(numbers))
+# print("Minimum =", minimum(numbers))
+# print("Maximum =", maximum(numbers))
+
+
+#Banking Application
+# balance = 1000
+
+# def deposit(amount):
+#     global balance
+#     if amount > 0:
+#         balance += amount
+#         print("Deposit Successful")
+#     else:
+#         print("Invalid Amount")
+
+# def withdraw(amount):
+#     global balance
+#     if amount <= 0:
+#         print("Invalid Amount")
+#     elif amount <= balance:
+#         balance -= amount
+#         print("Withdrawal Successful")
+#     else:
+#         print("Insufficient Balance")
+# 1
+# def display_balance(balance):
+#     print(f"Current Balance =", balance)
+
+# while True:
+#     print("\n1. Deposit")
+#     print("2. Withdraw")
+#     print("3. Check Balance")
+#     print("4. Exit")
+
+#     choice=input("Enter your choice: ")
+
+#     if choice == "1":
+#         amount = float(input("Enter deposit amount: "))
+#         deposit(amount)
+
+#     elif choice == "2":
+#         amount = float(input("Enter withdrawal amount: "))
+#         withdraw(amount)
+
+#     elif choice == "3":
+#         display_balance()
+
+#     elif choice == "4":
+#         print("Thank you!")
+#         break
+
+#     else:
+#         print("Invalid Choice")
+
+#Student record processor
+# students = [
+#     {"name": "Shreya", "marks": [80, 70, 90]},
+#     {"name": "Riya", "marks": [60, 65, 70]},
+#     {"name": "Shiwani", "marks": [25, 30, 35]},
+#     {"name": "Priya", "marks": [85, 90, 95]}
+# ]
+
+# def calculate_average(marks):
+#     return sum(marks) / len(marks)
+
+# def passing_students(students):
+#     for student in students:
+#         avg = calculate_average(student["marks"])
+#         print(student["name"], "Average =", avg)
+
+#         if avg >= 40:
+#             print("Status: Pass")
+#         else:
+#             print("Status: Fail")
+
+# passing_students(students)
+
+
+
+def deposit(balance, amount):
+    balance +=amount
+    print(f"Deposited {amount}. New balance is {balance}")
+    return balance
+
+def withdraw(balance,amount):
+    if amount > balance:
+        print("Insufficient balance")
+    else:
+        balance -=amount
+    return balance
+
+def display_balance(balance):
+    print(f"Current balance is {balance}")
+
+balance= 2000
+
+while True:
+    print("\n Bankig Menu")
+    print("1. Deposit")
+    print("2. Withdraw")
+    print("3. Display balance")
+    print("4. Exit")
+
+    choice=input("Enter your choice :")
+    if choice == "1":
+        amt=float(input("Enter amount to deposit:"))
+        balance = deposit(balance, amt)
+    elif choice =="2":
+        amt=float(input("Enter amount to withdraw:"))
+        balance = withdraw(balance, amt)
+    elif choice =="3":
+        display_balance(balance)
+    elif choice =="4":
+        print("Thank you for banking with us!")
+    else:
+        print("Invalid choice. Please try again.")
+
+
+
